@@ -34,7 +34,7 @@ app.get('/contact',(req, res) => {
     res.render('contact');
 })
 
-
-app.listen(3000,() => {
-    console.log('ポート3000でリクエスト待機中');
+const port = process.env.PORT || 3000;
+app.listen(port,() => {
+    console.log(`ポート${port}でリクエスト待機中`);
 })
