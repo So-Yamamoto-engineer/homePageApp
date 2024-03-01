@@ -1,0 +1,175 @@
+.Allcontainer{
+    height: 100vh;
+    background-color:red;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+/* .link {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+*/
+
+.container1 {
+    /* position: relative; */
+
+    background-color: #caf0f8;
+    height: calc(100vh / 3);
+    display: flex;
+}
+
+.container2 {
+    background-color:rgb(164, 108, 108);
+    height: calc(100vh / 3);
+    display: flex;
+}
+
+.container3 {
+    background-color:rgb(144, 48, 48);
+    height: calc(100vh / 3);
+    display: flex;
+}
+
+.name{
+    /* position: relative; */
+
+    background-color: #caf0f8;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.career{
+    background-color: #90e0ef;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.skills{
+    background-color: #a2d2ff;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.hobbies{
+    background-color: #ffb3c6;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.portfolios{
+    background-color: #219ebc;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contact{
+    background-color: #80ed99;
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+.container1 {
+    flex-flow: column;
+}
+
+.container2 {
+    flex-flow: column;
+}
+
+.container3 {
+    flex-flow: column;
+}
+
+
+.name{
+    background-color: #caf0f8;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.career{
+    background-color: #90e0ef;
+
+    text-align: center;
+    padding-top: 40px;
+}
+
+.skills{
+    background-color: #a2d2ff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hobbies{
+    background-color: #ffb3c6;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.portfolios{
+    background-color: #219ebc;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact{
+    background-color: #80ed99;
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+}
+
+

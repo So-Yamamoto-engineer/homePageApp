@@ -1,0 +1,61 @@
+main {  
+    text-align: center;
+    margin: 50px 0;
+}
+
+.btn11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn11 a {
+    font-size: 2vw;
+    position: relative;
+    display: inline-block;
+    padding: 0.1em 0.3em;
+    text-decoration: none;
+    font-weight:bold;
+}
+.btn11 a:after,
+.btn11 a::before {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    transition: all 0.3s ease;
+}
+.btn11 a:after {
+    right: 50%;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background-color: #337ab7;/*ホバー時の背景色*/
+}
+.btn11 a::before {
+    left: 0;
+    width: 100%;
+    height: calc(100% - 2px);
+    border-top: 1px solid #337ab7;/*上線*/
+    border-bottom: 1px solid #337ab7;/*下線*/
+}
+.btn11 a:hover:after {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.btn11 a:hover::before {
+    right: 50%;
+    left: 50%;
+    width: 0%;
+}
+
+
+
+footer {
+    padding: 2rem;
+    font-size: 15px;
+    color: #4b5564;
+    background: #fff;
+    text-align: center;
+}
