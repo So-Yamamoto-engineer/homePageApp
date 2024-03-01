@@ -103,12 +103,16 @@ button[type="submit"] {
     width: 0%;
 }
 
-
-
 footer {
     padding: 2rem;
     font-size: 15px;
     color: #4b5564;
     background: #fff;
     text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    .btn11 a {
+        font-size: 8vw;
+    }  
 }

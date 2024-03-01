@@ -13,17 +13,6 @@
     transition: all 1s ease; /* アニメーションの速度と効果を設定 */
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .btn11 {
     display: flex;
     justify-content: center;
@@ -79,4 +68,10 @@ footer {
     color: #4b5564;
     background: #fff;
     text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    .btn11 a {
+        font-size: 8vw;
+    }  
 }
